@@ -11,6 +11,9 @@
 
 $(document).ready(function () {
     /*$('#slider div:gt(0)').hide();*/
+    
+    $(".ocultarEstaImagen").not("#img1").hide();
+
 
     $("#boton1").click(function () {
         $("#img1").fadeIn("slow");
