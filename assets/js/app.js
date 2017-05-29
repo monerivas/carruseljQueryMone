@@ -10,7 +10,7 @@
 
 
 $(document).ready(function () {
-    $('#slider div:gt(0)').hide();
+    /*$('#slider div:gt(0)').hide();*/
 
     $("#boton1").click(function () {
         $("#img1").fadeIn("slow");
